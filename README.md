@@ -1,3 +1,3 @@
 # rn-custom-ui
 
-# UI components added
+A reusable UI component library for React Native apps.
