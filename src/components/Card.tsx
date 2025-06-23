@@ -4,11 +4,11 @@ import { colors } from '../theme/colors';
 
 interface Props {
   children: React.ReactNode;
-  style?: StyleProp<ViewStyle>;
+  customstyle?: StyleProp<ViewStyle>;
 }
 
-export const Card = ({ children, style }: Props) => (
-  <View style={[styles.card, style]}>
+export const Card = ({ children, customstyle }: Props) => (
+  <View style={[styles.card, customstyle]}>
     {children}
   </View>
 );
